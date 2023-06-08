@@ -1,5 +1,5 @@
 # taxcaliculator
-# 1. API endpoint to store employee details(Validate the data and throw the errors on invalid data)
+# 1. API endpoint to store taxpayer details(Validate the data and throw the errors on invalid data)
 
 # Fields(All fields are mandatory):
 
@@ -19,7 +19,7 @@ Salary(per month)
 
  
 
-# 2. API endpoint to return employees' tax deduction for the current financial year(April to March). API should return employee code, first name, last name, yearly salary, tax amount, cess amount.
+# 2. API endpoint to return taxpauers' tax deduction for the current financial year(April to March). API should return employee code, first name, last name, yearly salary, tax amount, cess amount.
 
  
 
