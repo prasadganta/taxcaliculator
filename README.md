@@ -52,12 +52,12 @@ Loss of pay per day: Salary / 30
 # Enabled the actuator
     actuator endpoints 
       access them using the following pattern: http://localhost:8080/actuator/{endpoint}.
-Here are some commonly used Actuator endpoints:
+      Here are some commonly used Actuator endpoints:
+      /actuator/health: Provides information about the health of your application.
+      /actuator/info: Returns general information about your application.
+      /actuator/metrics: Provides various metrics about your application, such as CPU usage, memory usage, etc.
+      /actuator/beans: Returns information about the beans in your application's context.
 
-/actuator/health: Provides information about the health of your application.
-/actuator/info: Returns general information about your application.
-/actuator/metrics: Provides various metrics about your application, such as CPU usage, memory usage, etc.
-/actuator/beans: Returns information about the beans in your application's context.
 
 
 
