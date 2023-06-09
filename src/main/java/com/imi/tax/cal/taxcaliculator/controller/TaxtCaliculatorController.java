@@ -49,16 +49,6 @@ public class TaxtCaliculatorController {
 		List<EmployeeVo> employeeVoList = taxServ.getEmpData(financialYear);
 		return ResponseEntity.ok(employeeVoList);
 	}
-	
-	
-	@ExceptionHandler(MethodArgumentNotValidException.class)
-	@ResponseStatus(HttpStatus.BAD_REQUEST)
-	public ResponseEntity<Object> handleValidationException(MethodArgumentNotValidException ex) {
-	    Map<String, Object> responseBody = new HashMap<>();
-	    responseBody.put("error", "Validation failed");
-	    responseBody.put("details", ex.getBindingResult().getAllErrors());
-	    return ResponseEntity.badRequest().body(responseBody);
-	}
 
 
 }
